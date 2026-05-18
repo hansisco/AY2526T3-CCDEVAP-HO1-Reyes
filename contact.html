@@ -1,12 +1,12 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hansify - Home</title>
-  </head>
-  <body>
-    <!-- NAVIGATION -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hansify - Contact</title>
+</head>
+<body>
+        <!-- NAVIGATION -->
     <pre>
 ██╗  ██╗ █████╗ ███╗   ██╗███████╗██╗███████╗██╗   ██╗
 ██║  ██║██╔══██╗████╗  ██║██╔════╝██║██╔════╝╚██╗ ██╔╝
@@ -25,10 +25,11 @@
             </tr>
         </table>
     </nav>
-
+    
     <hr>
 
     <table border="0">
+
         <!-- LEFT SIDE -->
         <td>
             <p><strong>Hans' Library</strong></p>
@@ -66,43 +67,50 @@
 
         <!-- CENTER CONTENT -->
         <td>
-            <table> 
-                <th><img src="images/profile.jpg" alt="Hans Reyes" width="200"></th>
-                <th><h1>Hans Reyes</h1></th>
+            <table>
+                <tr>
+                    <h1>Contact</h1>
+                </tr>
+                <tr>
+                    <td><img src="images/profile.jpg" alt="Hans Reyes" width="30"></td>
+                    <td>Hans Reyes</td>
+                </tr>
             </table>
 
             <hr>
 
-            <h2>About</h2>
-            <p>
-            Candidate Number 5 is Hans Reyes, a 20-year-old Information Technology student all the way<br>
-            from Calamba, Laguna.<br><br>
-            With a passion for technology and creativity, Hans enjoys designing websites, creating digital<br>
-            content, and turning ideas into meaningful projects. He believes that great design and thoughtful<br>
-            innovation can make a lasting impact.
-            </p>
+            <section>
+                <h2>Reach Out to Me (hans_reyes@dlsu.edu.ph)</h2>
 
-            <hr>
+                <form>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name"><br><br>
 
-            <h2>Discography</h2>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"><br><br>
 
-            <table border="0">
-                <tr>
-                    <th><a href="about.html"><img src="images/aboutme.png" alt="About Me" width="150"></a></th>
-                    <th><a href="favorites.html"><img src="images/favorites.png" alt="Favorites" width="150"></a></th>
-                    <th><a href="links.html"><img src="images/links.png" alt="Links" width="150"></a></th>
-                    <th><a href="contact.html"><img src="images/contact.png" alt="Contact" width="150"></a></th>
-                </tr>
-                    <td>About Me</td>
-                    <td>Favorites</td>
-                    <td>Links</td>
-                    <td>Contact</td>
-                </tr>
-            </table><br>
+                    <p>Shared Interest:</p>
+
+                    <input type="radio" id="gaming" name="interest" value="Gaming">
+                    <label for="gaming">Gaming</label><br>
+
+                    <input type="radio" id="music" name="interest" value="Music">
+                    <label for="music">Music</label><br>
+
+                    <input type="radio" id="movies" name="interest" value="Movies">
+                    <label for="movies">Movies</label><br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="5" cols="40"></textarea><br><br>
+
+                    <input type="submit" value="Send Message">
+                </form>
+            </section><br><br><br><br><br>
 
             <footer>
                 <p>────────────────────────&copy; 2026 Hansify────────────────────────</p>
             </footer>
+
         </td>
 
         <td></td>
@@ -130,5 +138,5 @@
             </audio><br><br>
         </td>
     </table>
-  </body>
+</body>
 </html>
