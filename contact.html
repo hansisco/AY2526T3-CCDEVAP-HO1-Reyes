@@ -1,142 +1,116 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hansify - Contact</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hansify - Contact</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;900&display=swap" rel="stylesheet">
 </head>
 <body>
-        <!-- NAVIGATION -->
-    <pre>
-██╗  ██╗ █████╗ ███╗   ██╗███████╗██╗███████╗██╗   ██╗
-██║  ██║██╔══██╗████╗  ██║██╔════╝██║██╔════╝╚██╗ ██╔╝
-███████║███████║██╔██╗ ██║███████╗██║█████╗   ╚████╔╝
-██╔══██║██╔══██║██║╚██╗██║╚════██║██║██╔══╝    ╚██╔╝
-██║  ██║██║  ██║██║ ╚████║███████║██║██║        ██║
-╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝╚═╝        ╚═╝</pre>
-    <nav>
-        <table>
-            <tr>
-                <th><a href="index.html">╭┈ Home ┈╮</a></th>
-                <th><a href="about.html">╭┈ About Me ┈╮</a></th>
-                <th><a href="favorites.html">╭┈ Favorites ┈╮</a></th>
-                <th><a href="links.html">╭┈ Links ┈╮</a></th>
-                <th><a href="contact.html">╭┈ Contact ┈╮</a></th>
-            </tr>
-        </table>
-    </nav>
-    
-    <hr>
+  <div class="page-body">
 
-    <table border="0">
+    <div class="header">
+      <div class="logo">
+        <img src="images/logo.png" alt="Hansify Logo">
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="favorites.html">Favorites</a>
+        <a href="links.html">Links</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <div class="profile">
+        <img src="images/profile.jpg" alt="Hans Reyes">
+      </div>
+    </div>
 
-        <!-- LEFT SIDE -->
-        <td>
-            <p><strong>Hans' Library</strong></p>
+    <div class="menu">
+      <div class="menu-content">
+        <h3 class="menu-title">Hans' Library</h3>
+        <div class="menu-links">
+          <a class="menu-link" href="about.html">
+            <img src="images/aboutme.png" alt="About Me">
+            <span>About Me</span>
+          </a>
+          <a class="menu-link" href="favorites.html">
+            <img src="images/favorites.png" alt="Favorites">
+            <span>Favorites</span>
+          </a>
+          <a class="menu-link" href="links.html">
+            <img src="images/links.png" alt="Links">
+            <span>Links</span>
+          </a>
+          <a class="menu-link active" href="contact.html">
+            <img src="images/contact.png" alt="Contact">
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+    </div>
 
-            <table>
-                <tr>
-                    <td><img src="images/aboutme.png" alt="About Me" width="30"></td>
-                    <td><a href="about.html">► About Me</a></td>
-                </tr>
-                <tr>
-                    <td><img src="images/favorites.png" alt="Favorites" width="30"></td>
-                    <td><a href="favorites.html">► Favorites</a></td>
-                </tr>
-                <tr>
-                    <td><img src="images/links.png" alt="Links" width="30"></td>
-                    <td><a href="links.html">► Links</a></td>
-                </tr>
-                <tr>
-                    <td><img src="images/contact.png" alt="Contact" width="30"></td>
-                    <td><a href="contact.html">► Contact</a></td>
-                </tr>
-            </table><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        </td>
+    <div class="main">
+      <div class="main-content">
+        <div class="main-title contact-page">
+          <img src="images/contact.png" alt="Contact" class="main-title-img">
+          <div>
+            <h1>Contact</h1>
+            <div class="main-profile">
+              <img src="images/profile.jpg" alt="Hans Reyes">
+              <span>Hans Reyes</span>
+            </div>
+          </div>
+        </div>
 
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <div class="main-body">
+          <h3>Send a Message</h3>
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
 
-        <!-- CENTER CONTENT -->
-        <td>
-            <table>
-                <tr>
-                    <h1>Contact</h1>
-                </tr>
-                <tr>
-                    <td><img src="images/profile.jpg" alt="Hans Reyes" width="30"></td>
-                    <td>Hans Reyes</td>
-                </tr>
-            </table>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
 
-            <hr>
+            <label>Shared Interest:</label>
+            <div class="radio-group">
+              <label><input type="radio" name="interest" value="Gaming"> Gaming</label>
+              <label><input type="radio" name="interest" value="Music"> Music</label>
+              <label><input type="radio" name="interest" value="Movies"> Movies</label>
+            </div>
 
-            <section>
-                <h2>Send a Message</h2>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5"></textarea>
 
-                <form>
-                    <label for="name">Name:</label><br>
-                    <input type="text" id="name" name="name"><br><br>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
 
-                    <label for="email">Email:</label><br>
-                    <input type="email" id="email" name="email"><br><br>
+      </div>
+    </div>
 
-                    <p>Shared Interest:</p>
-
-                    <input type="radio" id="gaming" name="interest" value="Gaming">
-                    <label for="gaming">Gaming</label><br>
-
-                    <input type="radio" id="music" name="interest" value="Music">
-                    <label for="music">Music</label><br>
-
-                    <input type="radio" id="movies" name="interest" value="Movies">
-                    <label for="movies">Movies</label><br><br>
-
-                    <label for="message">Message:</label><br>
-                    <textarea id="message" name="message" rows="5" cols="40"></textarea><br><br>
-
-                    <input type="submit" value="Send">
-                </form>
-            </section><br><br><br><br><br>
-
-            <footer>
-                <p>────────────────────────&copy; 2026 Hansify────────────────────────</p>
-            </footer>
-
-        </td>
-
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-
-        <!-- RIGHT SIDE -->
-        <td>
-            <video height="auto" width="300" controls>
+    <div class="player">
+      <div class="player-content">
+        <div class="video-container">
+          <video autoplay muted loop>
             <source src="video/diva.mp4" type="video/mp4">
-            </video>
-
-            <h2>Diva - Homecoming Live</h2>
-            <span>Beyoncé</span><br><br><br>
-
-            <audio controls>
+          </video>
+          <div class="overlay"></div>
+          <div class="content">
+            <p>Diva - Homecoming Live</p>
+            <span>Beyoncé</span>
+          </div>
+        </div>
+        <div class="audio-container">
+          <audio controls>
             <source src="audio/tiktok.mp3" type="audio/mp3">
-            </audio><br><br>
-        </td>
-    </table>
+          </audio>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">© 2026 Hansify. All rights reserved.</div>
+
+  </div>
 </body>
 </html>

@@ -1,128 +1,126 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hansify - Home</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- NAVIGATION -->
-    <nav>
-        <table>
-            <tr>
-                <th><a href="index.html">╭┈ Home ┈╮</a></th>
-                <th><a href="about.html">╭┈ About Me ┈╮</a></th>
-                <th><a href="favorites.html">╭┈ Favorites ┈╮</a></th>
-                <th><a href="links.html">╭┈ Links ┈╮</a></th>
-                <th><a href="contact.html">╭┈ Contact ┈╮</a></th>
-            </tr>
-        </table>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hansify - Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="page-body">
 
-    <hr>
+    <div class="header">
+      <div class="logo">
+        <img src="images/logo.png" alt="Hansify Logo">
+      </div>
+      <nav class="nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="favorites.html">Favorites</a>
+        <a href="links.html">Links</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="profile">
+        <img src="images/profile.jpg" alt="Hans Reyes">
+      </div>
+    </div>
 
-    <table>
-        <!-- LEFT SIDE -->
-        <td>
-            <p><strong>Hans' Library</strong></p>
+    <div class="menu">
+      <div class="menu-content">
+        <h3 class="menu-title">Hans' Library</h3>
+        <div class="menu-links">
+          <a class="menu-link" href="about.html">
+            <img src="images/aboutme.png" alt="About Me">
+            <span>About Me<span class="menu-link-subtitle">Album</span></span>
+            </a>
+          <a class="menu-link" href="favorites.html">
+            <img src="images/favorites.png" alt="Favorites">
+            <span>Favorites<span class="menu-link-subtitle">Album</span></span>
+          </a>
+          <a class="menu-link" href="links.html">
+            <img src="images/links.png" alt="Links">
+            <span>Links<span class="menu-link-subtitle">Album</span></span>
+          </a>
+          <a class="menu-link" href="contact.html">
+            <img src="images/contact.png" alt="Contact">
+            <span>Contact<span class="menu-link-subtitle">Album</span></span>
+          </a>
+        </div>
+      </div>
+    </div>
 
-            <table>
-                <tr>
-                    <td><img src="images/aboutme.png" alt="About Me" width="30"></td>
-                    <td><a href="about.html">► About Me</a></td>
-                </tr>
-                <tr>
-                    <td><img src="images/favorites.png" alt="Favorites" width="30"></td>
-                    <td><a href="favorites.html">► Favorites</a></td>
-                </tr>
-                <tr>
-                    <td><img src="images/links.png" alt="Links" width="30"></td>
-                    <td><a href="links.html">► Links</a></td>
-                </tr>
-                <tr>
-                    <td><img src="images/contact.png" alt="Contact" width="30"></td>
-                    <td><a href="contact.html">► Contact</a></td>
-                </tr>
-            </table><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        </td>
+    <div class="main">
+      <div class="main-content">
 
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <div class="main-title index-page">
+          <img src="images/profile.jpg" alt="Hans Reyes" class="main-title-img">
+          <div>
+            <h1>Hans Reyes</h1>
+            <div class="main-profile">
+              <span>BS Information Technology · De La Salle University</span>
+            </div>
+          </div>
+        </div>
 
-        <!-- CENTER CONTENT -->
-        <td>
-            <table> 
-                <th><img src="images/profile.jpg" alt="Hans Reyes" width="200"></th>
-                <th><h1>Hans Reyes</h1></th>
-            </table>
+        <div class="main-body">
+          <h3>About</h3>
+          <p>
+            Candidate Number 5 is a 20-year-old stunner, all the way from the hometown of our national hero,
+            Calamba, Laguna. He is currently taking up BS Information Technology in De La Salle University.
+            <br><br>
+            With a passion for technology and creativity, he displays interest in UI/UX and Web Dev,
+            managing network infrastructures, creating digital content, and soon turn ideas into meaningful projects.
+          </p>
+        </div>
 
-            <hr>
+        <div class="main-body">
+          <h3>Discography</h3>
+          <div class="discography">
+            <a href="about.html" class="disc-item">
+              <img src="images/aboutme.png" alt="About Me">
+              <span>About Me<br><span class="disc-item-subtitle">Album</span></span>
+            </a>
+            <a href="favorites.html" class="disc-item">
+              <img src="images/favorites.png" alt="Favorites">
+              <span>Favorites<br><span class="disc-item-subtitle">Album</span></span>
+            </a>
+            <a href="links.html" class="disc-item">
+              <img src="images/links.png" alt="Links">
+              <span>Links<br><span class="disc-item-subtitle">Album</span></span>
+            </a>
+            <a href="contact.html" class="disc-item">
+              <img src="images/contact.png" alt="Contact">
+              <span>Contact<br><span class="disc-item-subtitle">Album</span></span>
+            </a>
+          </div>
+        </div>
 
-            <h2>About</h2>
-            <p>
-            Candidate Number 5 is a 20-year-old stunner, all the way from the hometown of our national hero,<br>
-            Calamba, Laguna. He is currently taking up BS Information Technology in De La Salle University.<br><br>
+      </div>
+    </div>
 
-            With a passion for technology and creativity, he displays interest in UI/UX and Web Dev,<br>
-            managing network infrastructures, creating digital content, and soon turn ideas into meaningful<br>projects.
-            </p>
-
-            <hr>
-
-            <h2>Discography</h2>
-
-            <table>
-                <tr>
-                    <th><a href="about.html"><img src="images/aboutme.png" alt="About Me" width="150"></a></th>
-                    <th><a href="favorites.html"><img src="images/favorites.png" alt="Favorites" width="150"></a></th>
-                    <th><a href="links.html"><img src="images/links.png" alt="Links" width="150"></a></th>
-                    <th><a href="contact.html"><img src="images/contact.png" alt="Contact" width="150"></a></th>
-                </tr>
-                    <td>About Me</td>
-                    <td>Favorites</td>
-                    <td>Links</td>
-                    <td>Contact</td>
-                </tr>
-            </table><br>
-
-            <footer>
-                <p>────────────────────────&copy; 2026 Hansify────────────────────────</p>
-            </footer>
-        </td>
-
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-
-        <!-- RIGHT SIDE -->
-        <td>
-            <video height="auto" width="300" controls>
+    <div class="player">
+      <div class="player-content">
+        <div class="video-container">
+          <video autoplay muted loop>
             <source src="video/diva.mp4" type="video/mp4">
-            </video>
-
-            <h2>Diva - Homecoming Live</h2>
-            <span>Beyoncé</span><br><br><br>
-
-            <audio controls>
+          </video>
+          <div class="overlay"></div>
+          <div class="content">
+            <p>Diva - Homecoming Live</p>
+            <span>Beyoncé</span>
+          </div>
+        </div>
+        <div class="audio-container">
+          <audio controls>
             <source src="audio/tiktok.mp3" type="audio/mp3">
-            </audio><br><br>
-        </td>
-    </table>
-  </body>
+          </audio>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">© 2026 Hansify. All rights reserved.</div>
+
+  </div>
+</body>
 </html>
